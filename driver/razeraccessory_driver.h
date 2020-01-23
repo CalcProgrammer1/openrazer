@@ -15,6 +15,8 @@
 #define USB_DEVICE_ID_RAZER_CHROMA_MUG 0x0F07
 #define USB_DEVICE_ID_RAZER_CHROMA_BASE 0x0F08
 #define USB_DEVICE_ID_RAZER_CHROMA_HDK 0x0F09
+#define USB_DEVICE_ID_RAZER_NOMMO_CHROMA 0x0517
+#define USB_DEVICE_ID_RAZER_NOMMO_PRO 0x0518
 
 struct razer_accessory_device {
     struct usb_device *usb_dev;
